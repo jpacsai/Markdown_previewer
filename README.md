@@ -1,4 +1,4 @@
-# Markdown Previewer 👁️
+# Markdown Previewer 👀
 
 **This project is part of the [FreeCodeCamp](https://www.freecodecamp.org) Front End Libraries Certification section**
 
@@ -51,9 +51,9 @@ Service worker is being activated in the production version.
 The site was tested on Google Chrome only
 
 ## 🍴 How to use  
-1. The app displays 3 rows of drum pads that correspond to the keys on the keyboard.
-2. The user can press drum pads using their keyboard or mouse, each triggers an audio clip.
-3. The name of the pressed key is displayed below the drum pad.
+1. When the markdown previewer first loads, the default text in the #editor field contains valid markdown that represents one of each of the following elements: a header, a sub header, a link, inline code, a code block, a list item, a blockquote, an image, and bolded text.
+2. The default markdown in the editor field is rendered as HTML in the preview element by default.
+3. When the user enters GitHub flavored markdown into the editor element, the text is rendered as HTML in the preview element as he/she types
 
 ## 📜 Licence
 
